@@ -32,6 +32,8 @@ public class Cliente {
     private String numero;
     private String bairro;
     private String cep;
+    @ManyToOne
+    private Cidade cidade;
 
 
     @Override
